@@ -1,0 +1,51 @@
+site_name: LABDA
+
+nav:
+  - LABDA: index.md
+  - Preprocessing: preprocessing.md
+  - Contextual: contextual.md
+
+theme:
+  logo: assets/labda-logo.png
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_url:  https://github.com/labda-project
+repo_name: labda-project
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://labda-project.eu/
+      name: LABDA Website
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/w5FkX4NnEq
+      name: LABDA on Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/labda-project
+      name: LABDA on Github
+  
+  generator: true
+
+copyright: |
+  &copy; 2023 <a href="https://labda-project.eu/" target="_blank" rel="noopener">LABDA Project</a>
